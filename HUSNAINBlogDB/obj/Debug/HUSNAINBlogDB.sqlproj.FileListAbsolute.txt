@@ -1,0 +1,10 @@
+D:\XPS\ansha-ITS152\LE2HUSNAIN\HUSNAINBlogDB\bin\Debug\HUSNAINBlogDB.dacpac
+D:\XPS\ansha-ITS152\LE2HUSNAIN\HUSNAINBlogDB\bin\Debug\HUSNAINBlogDB.dll
+D:\XPS\ansha-ITS152\LE2HUSNAIN\HUSNAINBlogDB\bin\Debug\HUSNAINBlogDB.pdb
+D:\XPS\ansha-ITS152\LE2HUSNAIN\HUSNAINBlogDB\obj\Debug\HUSNAINBlogDB.sqlproj.AssemblyReference.cache
+D:\XPS\ansha-ITS152\LE2HUSNAIN\HUSNAINBlogDB\obj\Debug\HUSNAINBlogDB.dll
+D:\XPS\ansha-ITS152\LE2HUSNAIN\HUSNAINBlogDB\obj\Debug\HUSNAINBlogDB.pdb
+D:\XPS\ansha-ITS152\LE2HUSNAIN\HUSNAINBlogDB\obj\Debug\Model.xml
+D:\XPS\ansha-ITS152\LE2HUSNAIN\HUSNAINBlogDB\obj\Debug\refactor.xml
+D:\XPS\ansha-ITS152\LE2HUSNAIN\HUSNAINBlogDB\obj\Debug\postdeploy.sql
+D:\XPS\ansha-ITS152\LE2HUSNAIN\HUSNAINBlogDB\obj\Debug\predeploy.sql

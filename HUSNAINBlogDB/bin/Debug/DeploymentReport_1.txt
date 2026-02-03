@@ -1,0 +1,44 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The type for column FirstName in table [dbo].[Users] is currently  NVARCHAR (100) NOT NULL but is being changed to 
+         NVARCHAR (50) NOT NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible
+         with type  NVARCHAR (50) NOT NULL.
+       The type for column LastName in table [dbo].[Users] is currently  NVARCHAR (100) NOT NULL but is being changed to 
+         NVARCHAR (50) NOT NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible
+         with type  NVARCHAR (50) NOT NULL.
+       The type for column Username in table [dbo].[Users] is currently  NVARCHAR (100) NOT NULL but is being changed to 
+         NVARCHAR (50) NOT NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible
+         with type  NVARCHAR (50) NOT NULL.
+       The table [dbo].[Posts] is being dropped, data loss could occur.
+
+** User actions
+     Drop
+       [dbo].[FK_Posts_Users] (Foreign Key)
+       [dbo].[Posts] (Table)
+     Alter
+       [dbo].[Users] (Table)
+     Create
+       [dbo].[Post] (Table)
+       Default Constraint: unnamed constraint on [dbo].[Post] (Default Constraint)
+       [dbo].[FK_Post_Users] (Foreign Key)
+       [dbo].[spPosts_Detail] (Procedure)
+       [dbo].[spPosts_Insert] (Procedure)
+       [dbo].[spPosts_List] (Procedure)
+       [dbo].[spUsers_Authenticate] (Procedure)
+       [dbo].[spUsers_Register] (Procedure)
+
+** Supporting actions
+
+The object [BlogDB] exists in the target, but it will not be dropped even though you selected the 'Generate drop statements for objects that are in the target database but that are not in the source' check box.
+The object [BlogDB_log] exists in the target, but it will not be dropped even though you selected the 'Generate drop statements for objects that are in the target database but that are not in the source' check box.
+The type for column FirstName in table [dbo].[Users] is currently  NVARCHAR (100) NOT NULL but is being changed to  NVARCHAR (50) NOT NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  NVARCHAR (50) NOT NULL.
+The type for column LastName in table [dbo].[Users] is currently  NVARCHAR (100) NOT NULL but is being changed to  NVARCHAR (50) NOT NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  NVARCHAR (50) NOT NULL.
+The type for column Username in table [dbo].[Users] is currently  NVARCHAR (100) NOT NULL but is being changed to  NVARCHAR (50) NOT NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  NVARCHAR (50) NOT NULL.
+The table [dbo].[Posts] is being dropped, data loss could occur.
+
